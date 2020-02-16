@@ -71,7 +71,7 @@ function grid(done){
 		offset: '3rem', /* gutter width px || % || rem */
 		mobileFirst: false, /* mobileFirst ? 'min-width' : 'max-width' */
 		container: {
-			maxWidth: '1020px', /* max-width оn very large screen */
+			maxWidth: '94rem', /* max-width оn very large screen */
 			fields: '0' /* side fields */
 		},
 		breakPoints: {

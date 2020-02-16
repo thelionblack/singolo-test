@@ -1,5 +1,35 @@
 
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 html {
     font-size: 10px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+.wrapper {
+    max-width: 94rem;
+    margin: 0 auto;
 }
