@@ -23,7 +23,7 @@ function clear(){
 
 function styles(){	
 	return gulp.src('./src/css/style.scss')	
-			   .pipe(gulpif(isDev, sourcemaps.init()))	
+			   //.pipe(gulpif(isDev, sourcemaps.init()))	
 			   .pipe(sass().on('error', sass.logError))	
 			   //.pipe(concat('style.css'))	
 			   .pipe(gcmq())	
@@ -34,7 +34,7 @@ function styles(){
 			   .pipe(gulpif(isProd, cleanCSS({	
 			   		level: 2	
 			   })))	
-			   .pipe(gulpif(isDev, sourcemaps.write()))	
+			   //.pipe(gulpif(isDev, sourcemaps.write()))	
 			   .pipe(gulp.dest('./build/css'))	
 			   .pipe(gulpif(isSync, browserSync.stream()));	
 }	
