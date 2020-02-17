@@ -205,3 +205,64 @@ h6 {
   top: 17.4rem;
   right: 7rem;
 }
+
+.service {
+  background: #f2f2f2;
+  border-bottom: 6px solid #fff;
+}
+
+.service__inner {
+  margin-top: 6rem;
+}
+
+.service__article .article__title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #666d89;
+}
+
+.service__article .article__text {
+  margin-top: 1.7rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.667;
+  letter-spacing: -0.01rem;
+  text-align: justify;
+  color: #767e9e;
+}
+
+.service__features {
+  margin-top: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service__feature {
+  margin-top: 3.3rem;
+  padding-left: 7.9rem;
+  width: 30rem;
+  position: relative;
+}
+
+.service__feature .feature__title {
+  margin-top: -0.2rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #666d89;
+}
+
+.service__feature .feature__text {
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.797;
+  color: #767e9e;
+}
+
+.service__feature .feature__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
