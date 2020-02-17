@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # ignore any files .js and .json
-gulpfile.js
-package.json
-package-lock.json
+.gulpfile.js
+.package.json
+.package-lock.json
 
