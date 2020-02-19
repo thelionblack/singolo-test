@@ -4,28 +4,28 @@
   font-family: Lato;
   font-style: normal;
   font-weight: 300;
-  src: url(./font/Lato-Light.ttf) format("ttf");
+  src: url(./assets/font/Lato-Light.ttf) format("ttf");
 }
 
 @font-face {
   font-family: Lato;
   font-style: normal;
   font-weight: 400;
-  src: url(./font/Lato-Regular.ttf) format("ttf");
+  src: url(./assets/font/Lato-Regular.ttf) format("ttf");
 }
 
 @font-face {
   font-family: Lato;
   font-style: normal;
   font-weight: 700;
-  src: url(./font/Lato-Bold.ttf) format("ttf");
+  src: url(./assets/font/Lato-Bold.ttf) format("ttf");
 }
 
 @font-face {
   font-family: Lato;
   font-style: normal;
   font-weight: 900;
-  src: url(./font/Lato-Black.ttf) format("ttf");
+  src: url(./assets/font/Lato-Black.ttf) format("ttf");
 }
 
 body,
@@ -168,7 +168,7 @@ h6 {
   height: 2.7rem;
   width: 1.6rem;
   cursor: pointer;
-  background-image: url("./../img/chev__left.png");
+  background-image: url("./assets/img/chev__left.png");
   position: absolute;
   top: 28.1rem;
   left: 0;
@@ -176,14 +176,14 @@ h6 {
 }
 
 .slider__inner .arrow__left:hover {
-  background-image: url("./../img/chev__left-b.png");
+  background-image: url("./assets/img/chev__left-b.png");
 }
 
 .slider__inner .arrow__right {
   height: 2.7rem;
   width: 1.6rem;
   cursor: pointer;
-  background-image: url("./../img/chev__right.png");
+  background-image: url("./assets/img/chev__right.png");
   position: absolute;
   top: 28.1rem;
   right: 0;
@@ -191,7 +191,7 @@ h6 {
 }
 
 .slider__inner .arrow__right:hover {
-  background-image: url("./../img/chev__right-b.png");
+  background-image: url("./assets/img/chev__right-b.png");
 }
 
 .slider__inner .iphone__vertical {
