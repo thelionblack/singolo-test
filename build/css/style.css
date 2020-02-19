@@ -219,14 +219,17 @@ h6 {
   font-size: 3rem;
   font-weight: 900;
   color: #666d89;
+  overflow: hidden;
 }
 
 .service__article .article__text {
+  height: 6rem;
   margin-top: 1.7rem;
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.667;
   letter-spacing: -0.01rem;
+  overflow: hidden;
   text-align: justify;
   color: #767e9e;
 }
@@ -253,11 +256,14 @@ h6 {
 }
 
 .service__feature .feature__text {
+  width: 22rem;
+  height: 6.4rem;
   margin-top: 0.7rem;
   font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
   line-height: 1.797;
+  overflow: hidden;
   color: #767e9e;
 }
 
