@@ -140,7 +140,7 @@ h6 {
 }
 
 .nav__block .nav__item:last-child::after {
-  content: none;
+  display: none;
 }
 
 .nav__block a {
