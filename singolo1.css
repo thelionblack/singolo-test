@@ -130,17 +130,13 @@ h6 {
   position: relative;
 }
 
-.nav__block .nav__item::after {
+.nav__block .nav__item:not(:last-child)::after {
   content: "·";
   font-size: 1.2rem;
   position: absolute;
   color: #494e62;
   top: 0;
   right: -1.7rem;
-}
-
-.nav__block .nav__item:last-child::after {
-  display: none;
 }
 
 .nav__block a {
