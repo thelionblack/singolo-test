@@ -1,0 +1,70 @@
+html {
+    font-size: 10px;
+}
+
+body,h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.getquote {
+    padding-top: 67px;
+    padding-bottom: 65px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+    .getquote__title h3 {
+        font-size: 3rem;
+        line-height: 1.8rem;
+        color: #f0d8d9;
+        font-weight: 900;
+    }
+
+    .getquote__text p {
+        margin-top: 28px;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        letter-spacing: -0.21px;
+        color: #f0d8d9;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .getquote__form {
+        height: 366px;
+        width: 620px;
+        margin-top: 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .form__folder {
+            padding-left: 14px;
+            height: 38px;
+            background-color: #d6564f;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+            color: #f48c8f;
+            font-weight: 400;
+        }
+
+        .form__describe {
+            height: 202px;
+            resize: none;
+            line-height: 3.6rem;
+            letter-spacing: -0.8px;
+        }
