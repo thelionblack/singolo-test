@@ -34,15 +34,12 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 10px;
 }
 
 body {
+  box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
 
@@ -200,16 +197,14 @@ h6 {
 }
 
 .service__features {
-  margin-top: 1.3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .service__feature {
-  margin-top: 3.3rem;
   padding-left: 7.9rem;
-  width: 30rem;
+  width: 300px;
   position: relative;
 }
 
