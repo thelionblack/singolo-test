@@ -67,6 +67,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        position: relative;
     }
 
         .form__folder {
@@ -86,6 +87,13 @@ body {
             resize: none;
             line-height: 3.6rem;
             letter-spacing: -0.8px;
+        }
+
+        .form__folder-button {
+            width: 300px;
+            position: absolute;
+            bottom: 0;
+            right: -325px;
         }
 
     .getquote__contact {
