@@ -32,7 +32,7 @@ body {
 
 .portfolio {
     padding-top: 65px;
-    padding-bottom: 87px;
+    padding-bottom: 68px;
     background: #2d303a;
     border-bottom: 6px solid #323746;
     line-height: 0.9;
@@ -74,10 +74,11 @@ body {
         }
 
     .portfolio__pictures {
-        height: 600px;
+        height: 620px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        overflow: hidden;
     }
 
             .pictures__item {
@@ -139,13 +140,56 @@ body {
         }
 
     .photo__icons {
-        margin-top: 21px;
+        margin-top: 24px;
     }
 
         .icons__item {
-            margin-right: 6px;
+            margin-right: 5px;
             display: inline-block;
         }
+
+            .facebook,
+            .google,
+            .twitter,
+            .linked {
+                height: 33px;
+                width: 33px;
+                display: block;
+                background-repeat: no-repeat;
+                transition: all 0.4s linear;
+            }
+
+            .facebook {
+                background-image: url("./assets/img/facebook.png");
+            }
+
+            .facebook:hover {
+                background-image: url("./assets/img/facebookhover.png");
+            }
+
+            .google {
+                background-image: url("./assets/img/google.png");
+            }
+
+            .google:hover {
+                background-image: url("./assets/img/googlehover.png");
+            }
+
+            .twitter {
+                background-image: url("./assets/img/twitter.png");
+            }
+
+            .twitter:hover {
+                background-image: url("./assets/img/twitterhover.png");
+            }
+
+            .linked {
+                background-image: url("./assets/img/linked.png");
+            }
+
+            .linked:hover {
+                background-image: url("./assets/img/linkedhover.png");
+            }
 
         
 

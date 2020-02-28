@@ -91,6 +91,7 @@ body {
 
         .form__folder-button {
             width: 300px;
+            cursor: pointer;
             position: absolute;
             bottom: 0;
             right: -325px;
@@ -117,25 +118,34 @@ body {
         }
 
         .contact__date {
-           margin-top: 18px; 
+           margin-top: 21px; 
         }
 
             .contact__date li{
-                padding-left: 22.6px;
                 font-size: 1.2rem;
                 line-height: 2.2rem;
                 color: #f0d8d9;
                 font-weight: 400;
+
             }
 
             .date__info {
                 position: relative;
+                transition: all 0.4s linear;
+            }
+
+            .date__info:hover {
+                text-decoration: underline;
             }
 
             .date__info img {
                 position: absolute;
                 top: 6px;
                 left: 2px;
+            }
+
+            .date__info a {
+                padding-left: 22.6px;
             }
 
     .footer {
@@ -160,11 +170,54 @@ body {
         }
 
         .footer__icons {
-            margin-top: -9px;
+            margin-top: -8px;
             float: right;
         }
 
             .footer__icons li{
-                margin-left: 3px;
+                margin-left: 4px;
                 display: inline-block;
             }
+
+                .facebook,
+                .google,
+                .twitter,
+                .linked {
+                    height: 33px;
+                    width: 33px;
+                    display: block;
+                    background-repeat: no-repeat;
+                    transition: all 0.4s linear;
+                }
+
+                .facebook {
+                    background-image: url("./assets/img/facebook.png");
+                }
+
+                .facebook:hover {
+                    background-image: url("./assets/img/facebookhover.png");
+                }
+
+                .google {
+                    background-image: url("./assets/img/google.png");
+                }
+
+                .google:hover {
+                    background-image: url("./assets/img/googlehover.png");
+                }
+
+                .twitter {
+                    background-image: url("./assets/img/twitter.png");
+                }
+
+                .twitter:hover {
+                    background-image: url("./assets/img/twitterhover.png");
+                }
+
+                .linked {
+                    background-image: url("./assets/img/linked.png");
+                }
+
+                .linked:hover {
+                    background-image: url("./assets/img/linkedhover.png");
+                }
