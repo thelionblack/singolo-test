@@ -2,7 +2,16 @@ html {
     font-size: 10px;
 }
 
-body,h3 {
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body,h3,ul {
     margin: 0;
     padding: 0;
 }
@@ -41,10 +50,20 @@ body {
         text-align: justify;
     }
 
+    .getquote__wrapper {
+        margin-top: 44px;
+    }
+
+    .getquote__wrapper::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+
     .getquote__form {
         height: 366px;
         width: 620px;
-        margin-top: 44px;
+        float: left;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -68,3 +87,45 @@ body {
             line-height: 3.6rem;
             letter-spacing: -0.8px;
         }
+
+    .getquote__contact {
+        width: 300px;
+        float: right;
+    }
+
+        .contact__title h3 {
+            font-size: 18px;
+            line-height: 18px;
+            color: #f0d8d9;
+            font-weight: 900;
+        }
+
+        .contact__text p {
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+            letter-spacing: -0.2px;
+            color: #f0d8d9;
+            font-weight: 400;
+        }
+
+        .contact__date {
+           margin-top: 18px; 
+        }
+
+            .contact__date li{
+                padding-left: 22.6px;
+                font-size: 1.2rem;
+                line-height: 2.2rem;
+                color: #f0d8d9;
+                font-weight: 400;
+            }
+
+            .date__info {
+                position: relative;
+            }
+
+            .date__info img {
+                position: absolute;
+                top: 6px;
+                left: 2px;
+            }
